@@ -23,14 +23,6 @@
       <SubType>
       </SubType>
     </ClCompile>
-    <ClCompile Include="abstract\ImplementAbstractClass.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="abstract\Point_1.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
