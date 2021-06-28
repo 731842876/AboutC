@@ -48,17 +48,17 @@ public:
 
 
 
-int main() {
-	//A a;抽象类不能初始化
-	A* a = NULL;
-
-	B b;
-	b.show();
-	cout << "调用一次析构" << endl;
-	
-
-	A* c = new B();
-	delete c;
-	cout << "调用二次析构" << endl;
-	
-}
+//int main() {
+//	//A a;抽象类不能初始化
+//	A* a = NULL;
+//
+//	B b;
+//	b.show();
+//	cout << "调用一次析构" << endl;
+//	
+//
+//	A* c = new B();
+//	delete c;
+//	cout << "调用二次析构" << endl;
+//	
+//}
