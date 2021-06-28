@@ -15,8 +15,8 @@ public:
 	//通过赋值为0来声明纯虚函数
 	virtual void show() = 0;
 };
-int main() {
-	
-	//test a;//抽象类无法初始化对象
-	test* a1;//可初始化指针
-}
+//int main() {
+//	
+//	//test a;//抽象类无法初始化对象
+//	test* a1;//可初始化指针
+//}
