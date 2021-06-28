@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="abstract.cpp">
+    <ClCompile Include="abstract\abstract.cpp">
       <SubType>
       </SubType>
     </ClCompile>
