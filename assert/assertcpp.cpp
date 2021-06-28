@@ -10,13 +10,13 @@ using namespace std;
 // @Time      : 2021/6/28 17:57:40
 
 
-int main() {
-	
-
-	int res = 10;
-
-	res += 1;
-
-	//经过运算与结果7不符，打印文件地址和错误代码行
-	assert(res == 7);
-}
+//int main() {
+//	
+//
+//	int res = 10;
+//
+//	res += 1;
+//
+//	//经过运算与结果7不符，打印文件地址和错误代码行
+//	assert(res == 7);
+//}

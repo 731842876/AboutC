@@ -21,5 +21,11 @@
     <ClCompile Include="assert\assertcpp.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="BitFiled\BitField.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\extern.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
