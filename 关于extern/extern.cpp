@@ -9,7 +9,7 @@ using namespace std;
 // @Time      : 2021/6/28 17:57:40
 
 
-int main() {
-	int a = 10, b = 5;
-	cout << myAdd(a, b) << endl;
-}
+//int main() {
+//	int a = 10, b = 5;
+//	cout << myAdd(a, b) << endl;
+//}

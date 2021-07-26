@@ -10,6 +10,7 @@
 // 添加要在此处预编译的标头
 #include "framework.h"
 
+//C++调用C函数的例子: 引用C的头文件时，需要加extern "C"
 extern "C" _declspec(dllexport) int myAdd(int a, int b);
 extern "C" _declspec(dllexport) int myMax(int a, int b);
 
