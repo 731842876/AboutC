@@ -51,13 +51,13 @@ public:
 };
 
 
-int main() {
-	A t(3);
-	cout << GetCount(t) << endl;
-
-	father f(1000);
-	son s;
-	cout << s.GetMoney(f) << endl;
-	//友元关系没有继承性 假如类B是类A的友元，类C继承于类A，那么友元类B是没办法直接访问类C的私有或保护成员。
-	//友元关系没有传递性 假如类B是类A的友元，类C是类B的友元，那么友元类C是没办法直接访问类A的私有或保护成员
-}
+//int main() {
+//	A t(3);
+//	cout << GetCount(t) << endl;
+//
+//	father f(1000);
+//	son s;
+//	cout << s.GetMoney(f) << endl;
+//	//友元关系没有继承性 假如类B是类A的友元，类C继承于类A，那么友元类B是没办法直接访问类C的私有或保护成员。
+//	//友元关系没有传递性 假如类B是类A的友元，类C是类B的友元，那么友元类C是没办法直接访问类A的私有或保护成员
+//}

@@ -15,81 +15,111 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="虚函数\abstract.cpp">
+    <ClCompile Include="grammar\虚函数\abstract.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="关于assert\assertcpp.cpp">
+    <ClCompile Include="grammar\关于assert\assertcpp.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="BitFiled\BitField.cpp">
+    <ClCompile Include="grammar\BitFiled\BitField.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="关于extern\extern.cpp">
+    <ClCompile Include="grammar\关于extern\extern.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="关于struct\Cstruct.c">
+    <ClCompile Include="grammar\关于struct\Cstruct.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="关于struct\C++Struct.cpp">
+    <ClCompile Include="grammar\关于struct\C++Struct.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="关于sizeof\sizeof.cpp">
+    <ClCompile Include="grammar\关于sizeof\sizeof.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="关于多态\polymorphic.cpp">
+    <ClCompile Include="grammar\关于多态\polymorphic.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="关于inline\inlinecpp.cpp">
+    <ClCompile Include="grammar\关于inline\inlinecpp.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="关于this\this.cpp">
+    <ClCompile Include="grammar\关于this\this.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="关于enum\enum.cpp">
+    <ClCompile Include="grammar\关于enum\enum.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="字节对齐\ByteAlignment.cpp">
+    <ClCompile Include="grammar\字节对齐\ByteAlignment.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="关于const\const.cpp">
+    <ClCompile Include="grammar\关于const\const.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="关于const\test.cpp">
+    <ClCompile Include="grammar\关于const\test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="关于const\利用指针遍历数组.cpp">
+    <ClCompile Include="grammar\关于const\利用指针遍历数组.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="关于const\const_2.cpp">
+    <ClCompile Include="grammar\关于const\const_2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="关于const\函数使用const.cpp">
+    <ClCompile Include="grammar\关于const\函数使用const.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="关于static\static.cpp">
+    <ClCompile Include="grammar\关于static\static.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="virtual\虚函数与运行多态.cpp">
+    <ClCompile Include="grammar\virtual\虚函数与运行多态.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="virtual\虚函数中默认参数.cpp">
+    <ClCompile Include="grammar\virtual\虚函数中默认参数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="关于vptr与vtable\vptr.cpp">
+    <ClCompile Include="grammar\关于vptr与vtable\vptr.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="virtual\错误使用static.cpp">
+    <ClCompile Include="grammar\virtual\错误使用static.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="引用和指针\指针和引用.cpp">
+    <ClCompile Include="grammar\引用和指针\指针和引用.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="关于friend\friend.cpp">
+    <ClCompile Include="grammar\关于friend\friend.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="练习\Practice.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="练习\output.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Method\TestFunc.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="关于inline\test.h">
+    <ClInclude Include="grammar\关于inline\test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Method\Value.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Method\MyStack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Method\MyString.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Method\SinglyLikedList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Method\MySqueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Method\DoubleLinkedList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Method\MySort.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
