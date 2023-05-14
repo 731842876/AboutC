@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="grammar\main.cpp" />
     <ClCompile Include="grammar\关于friend\friend.cpp">
       <SubType>
       </SubType>
@@ -64,10 +65,6 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="grammar\字节对齐\ByteAlignment.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="grammar\引用和指针\指针和引用.cpp">
       <SubType>
       </SubType>
     </ClCompile>
@@ -129,6 +126,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="grammar\Header\Includes.h" />
     <ClInclude Include="grammar\关于inline\test.h" />
     <ClInclude Include="Method\DoubleLinkedList.h" />
     <ClInclude Include="Method\MySort.h" />

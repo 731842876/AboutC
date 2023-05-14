@@ -81,9 +81,6 @@
     <ClCompile Include="grammar\virtual\错误使用static.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="grammar\引用和指针\指针和引用.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="grammar\关于friend\friend.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -94,6 +91,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Method\TestFunc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="grammar\main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -120,6 +120,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Method\MySort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="grammar\Header\Includes.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
