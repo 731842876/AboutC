@@ -1,7 +1,7 @@
 /*
  * @Author: 鲨鱼辣椒
  * @Date: 2023-05-14 16:45:58
- * @LastEditTime: 2023-05-14 20:31:22
+ * @LastEditTime: 2023-05-14 20:34:47
  * @Description: 指针和引用
  * Copyright (c) 2023 by ${git_name_email}, All Rights Reserved.
  */
@@ -99,5 +99,6 @@ void PointAndReference_Test() {
 
     // 无意间改变了指针的值
 
-    // look 有了引用为什么还需要指针：为了兼容C语言
+    // look 有了引用为什么还需要指针：
+    // 为了兼容C语言
 }
