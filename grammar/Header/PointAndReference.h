@@ -1,12 +1,16 @@
 /*
  * @Author: 鲨鱼辣椒
  * @Date: 2023-05-14 16:45:58
- * @LastEditTime: 2023-05-14 20:34:47
+ * @LastEditTime: 2023-05-16 00:00:20
  * @Description: 指针和引用
  * Copyright (c) 2023 by ${git_name_email}, All Rights Reserved.
  */
 
 #include "Includes.h"
+
+void PointAndReference_Func(int *a) {
+    cout << *a << endl;
+}
 
 int PointAndReference_Add(int a, int b) {
     return a + b;
@@ -18,6 +22,7 @@ void PointAndReference_Test() {
     int c = 5;
     int d = 11;
     int f = 98;
+    int g = 77;
 
     // look &：一个是取地址符作用，另一个是引用
     cout << &a << endl;
@@ -88,6 +93,12 @@ void PointAndReference_Test() {
 
     cout << sizeof(pf) << endl;
     cout << sizeof(name) << endl;
+
+    cout << "===================================" << endl;
+
+
+    // look 指针传参
+    PointAndReference_Func(&g);
 
     // look 有了指针为什么还需要引用：
 

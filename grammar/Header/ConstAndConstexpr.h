@@ -1,7 +1,7 @@
 /*
  * @Author: 鲨鱼辣椒
  * @Date: 2023-05-15 10:24:35
- * @LastEditTime: 2023-05-15 18:55:39
+ * @LastEditTime: 2023-05-15 23:27:13
  * @Description:
  * Copyright (c) 2023 by ${git_name_email}, All Rights Reserved.
  */
@@ -21,6 +21,7 @@ void Constexpr_Test() {
     // constexpr int b = a;
     cout << Constexpr_Func1(2) << endl;
     cout << Constexpr_Func() << endl;
+ 
 }
 
 const int Const_Func() {
@@ -54,7 +55,7 @@ void Const_Test() {
     cout << "=======================================" << endl;
 
     int c = 54;
-    // look 跟constexpr不同，const变量在运行期确定  
+    // look 跟constexpr不同，const变量在运行期确定
     const int d = c;
     cout << d << endl;
 }
