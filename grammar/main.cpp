@@ -1,9 +1,10 @@
 #include "Header/Includes.h"
 #include "Header/PointAndReference.h"
+#include "Header/ConstAndConstexpr.h"
 
 int main() {
 
-	cout << "jeu" << endl;
 
-	PointAndReference_Test();
+	// PointAndReference_Test();
+	Constexpr_Test();
 }

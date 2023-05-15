@@ -125,6 +125,9 @@
     <ClInclude Include="grammar\Header\Includes.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="grammar\Header\ConstAndConstexpr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="C:\Users\73184\AppData\Roaming\Tencent\QQ\Temp\QA8}N[P0GVL1T2F[03UFP{3.png">
