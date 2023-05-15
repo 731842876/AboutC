@@ -1,15 +1,33 @@
 /*
  * @Author: 鲨鱼辣椒
  * @Date: 2023-05-15 10:24:35
- * @LastEditTime: 2023-05-15 11:55:11
+ * @LastEditTime: 2023-05-15 18:55:39
  * @Description:
  * Copyright (c) 2023 by ${git_name_email}, All Rights Reserved.
  */
 #include "Header/Includes.h"
 // look 编译过程分为四步：预处理、编译、汇编、链接
 
-constexpr int Constexpr_Test() {
+constexpr int Constexpr_Func1(int a) {
+    return a + 1;
+}
+constexpr int Constexpr_Func() {
     return 10;
+}
+
+void Constexpr_Test() {
+    int a = 4;
+    // look 由于a的值在运行期才能确认，无法赋值给 需要在编译期确认值的b
+    // constexpr int b = a;
+    cout << Constexpr_Func1(2) << endl;
+    cout << Constexpr_Func() << endl;
+}
+
+const int Const_Func() {
+    return 34;
+}
+const int Const_Func1(int b) {
+    return b + 22;
 }
 
 void Const_Test() {
@@ -27,4 +45,16 @@ void Const_Test() {
     // look 可以通过指针修改值
     *p = 6;
     cout << b << endl;
+
+    cout << "=======================================" << endl;
+
+    cout << Const_Func() << endl;
+    cout << Const_Func1(22) << endl;
+
+    cout << "=======================================" << endl;
+
+    int c = 54;
+    // look 跟constexpr不同，const变量在运行期确定  
+    const int d = c;
+    cout << d << endl;
 }
